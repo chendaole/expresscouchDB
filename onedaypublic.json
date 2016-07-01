@@ -1,0 +1,7 @@
+{"new_edits":false,"docs":[
+{"_id":"_design/cdl","_rev":"1-f2ae2e23aba7f683228c8a23cd778cd6","language":"javascript","views":{"publiclog":{"map":"function(doc) {\n  if(doc.type === 'log'){\n\t emit(\"public\",doc)\t\n\t}\n}"}}},
+{"_id":"a3f552fde8d3500f641afa4c20005808","_rev":"2-0817bc200fbd577199857b9d288f8ca9","type":"log","title":"第一天","content":"今天吃放了，味道还不错","date":20160630,"range":1},
+{"_id":"a3f552fde8d3500f641afa4c20006d5d","_rev":"2-b7e7570c220c1b402676236b75c8a41e","title":"今天刷牙了","content":"牙膏味道不错，下次继续卖","range":0,"date":20130503,"type":"log"},
+{"_id":"a3f552fde8d3500f641afa4c200074b3","_rev":"1-6688f4d39487407051b7be63d4f9dee3","title":"今天你吃饭了么","content":"我没吃饭，你呢","type":"log","date":20160630,"range":0},
+{"_id":"a3f552fde8d3500f641afa4c200084a8","_rev":"2-b12ef79a43877f9425618a7867ec96e3","title":"今天要吃大西瓜","date":19930315,"content":"今天吃了一个大西瓜","range":3,"type":"log"}
+]}
